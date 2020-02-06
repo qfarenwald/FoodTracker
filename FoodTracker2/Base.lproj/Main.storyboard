@@ -15,8 +15,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" insetsLayoutMarginsFromSafeArea="NO" axis="vertical" alignment="top" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="b7j-uM-eDy">
-                                <rect key="frame" x="20" y="52" width="374" height="100.33333333333331"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" layoutMarginsFollowReadableWidth="YES" axis="vertical" alignment="top" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="b7j-uM-eDy">
+                                <rect key="frame" x="20" y="19.999999999999993" width="374" height="100.33333333333331"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Meal Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ip0-aj-MzH">
                                         <rect key="frame" x="0.0" y="0.0" width="86.333333333333329" height="20.333333333333332"/>
@@ -40,7 +40,6 @@
                                 <constraints>
                                     <constraint firstAttribute="trailingMargin" secondItem="VwN-e7-cnI" secondAttribute="trailing" id="SUz-Zz-JXg"/>
                                 </constraints>
-                                <viewLayoutGuide key="safeArea" id="vzE-eH-IcQ"/>
                             </stackView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -48,7 +47,7 @@
                             <constraint firstItem="b7j-uM-eDy" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="F81-Hc-4Vy"/>
                             <constraint firstItem="b7j-uM-eDy" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="gf1-6j-hCh"/>
                             <constraint firstAttribute="trailing" secondItem="b7j-uM-eDy" secondAttribute="trailing" constant="20" id="kcU-He-517"/>
-                            <constraint firstItem="b7j-uM-eDy" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="20" symbolic="YES" id="taa-pp-sTn"/>
+                            <constraint firstItem="b7j-uM-eDy" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="20" id="taa-pp-sTn"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
