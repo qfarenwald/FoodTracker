@@ -87,11 +87,11 @@
 		0C7038D023EB75FA00F4BCDE /* FoodTracker2 */ = {
 			isa = PBXGroup;
 			children = (
+				0C7038D723EB75FA00F4BCDE /* Main.storyboard */,
 				0C7038D123EB75FA00F4BCDE /* AppDelegate.swift */,
 				0C7038D323EB75FA00F4BCDE /* SceneDelegate.swift */,
 				0C7038D523EB75FA00F4BCDE /* ViewController.swift */,
 				0C7038F323ECB0C200F4BCDE /* RatingControl.swift */,
-				0C7038D723EB75FA00F4BCDE /* Main.storyboard */,
 				0C7038FB23EDFDAF00F4BCDE /* MealTableViewController.swift */,
 				0C7038F923EDF67700F4BCDE /* MealTableViewCell.swift */,
 				0C7038F523EDD3B000F4BCDE /* Meal.swift */,
