@@ -15,6 +15,7 @@
 		0C7038DE23EB75FB00F4BCDE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C7038DC23EB75FB00F4BCDE /* LaunchScreen.storyboard */; };
 		0C7038E923EB75FC00F4BCDE /* FoodTracker2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7038E823EB75FC00F4BCDE /* FoodTracker2Tests.swift */; };
 		0C7038F423ECB0C200F4BCDE /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7038F323ECB0C200F4BCDE /* RatingControl.swift */; };
+		0C7038F623EDD3B000F4BCDE /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7038F523EDD3B000F4BCDE /* Meal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		0C7038E823EB75FC00F4BCDE /* FoodTracker2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTracker2Tests.swift; sourceTree = "<group>"; };
 		0C7038EA23EB75FC00F4BCDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0C7038F323ECB0C200F4BCDE /* RatingControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
+		0C7038F523EDD3B000F4BCDE /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				0C7038D523EB75FA00F4BCDE /* ViewController.swift */,
 				0C7038F323ECB0C200F4BCDE /* RatingControl.swift */,
 				0C7038D723EB75FA00F4BCDE /* Main.storyboard */,
+				0C7038F523EDD3B000F4BCDE /* Meal.swift */,
 				0C7038DA23EB75FB00F4BCDE /* Assets.xcassets */,
 				0C7038DC23EB75FB00F4BCDE /* LaunchScreen.storyboard */,
 				0C7038DF23EB75FB00F4BCDE /* Info.plist */,
@@ -203,6 +206,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C7038F623EDD3B000F4BCDE /* Meal.swift in Sources */,
 				0C7038F423ECB0C200F4BCDE /* RatingControl.swift in Sources */,
 				0C7038D623EB75FA00F4BCDE /* ViewController.swift in Sources */,
 				0C7038D223EB75FA00F4BCDE /* AppDelegate.swift in Sources */,

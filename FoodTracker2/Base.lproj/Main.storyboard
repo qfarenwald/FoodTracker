@@ -60,6 +60,8 @@
                                 </subviews>
                                 <constraints>
                                     <constraint firstAttribute="trailingMargin" secondItem="VwN-e7-cnI" secondAttribute="trailing" id="SUz-Zz-JXg"/>
+                                    <constraint firstItem="s9T-AV-byG" firstAttribute="centerX" secondItem="b7j-uM-eDy" secondAttribute="centerX" id="rp5-vE-cim"/>
+                                    <constraint firstItem="s9T-AV-byG" firstAttribute="top" secondItem="auz-oS-uXL" secondAttribute="bottom" constant="8" id="u2d-DQ-0md"/>
                                 </constraints>
                             </stackView>
                         </subviews>
