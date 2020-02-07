@@ -73,28 +73,28 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" preservesSuperviewLayoutMargins="YES" layoutMarginsFollowReadableWidth="YES" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="b7j-uM-eDy">
-                                <rect key="frame" x="20" y="55.999999999999972" width="374" height="466.33333333333331"/>
+                                <rect key="frame" x="20" y="56" width="374" height="480.33333333333326"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Meal Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ip0-aj-MzH">
-                                        <rect key="frame" x="144" y="0.0" width="86.333333333333314" height="6.333333333333333"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Meal Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ip0-aj-MzH">
+                                        <rect key="frame" x="144" y="0.0" width="86.333333333333314" height="20.333333333333332"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Meal Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VwN-e7-cnI">
-                                        <rect key="frame" x="0.0" y="14.333333333333336" width="374" height="34"/>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Meal Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VwN-e7-cnI">
+                                        <rect key="frame" x="0.0" y="28.333333333333329" width="374" height="34"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" enablesReturnKeyAutomatically="YES"/>
                                     </textField>
-                                    <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="251" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BRt-hz-E6Q">
-                                        <rect key="frame" x="111.66666666666666" y="56.333333333333329" width="150.99999999999997" height="30"/>
+                                    <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="251" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BRt-hz-E6Q">
+                                        <rect key="frame" x="111.66666666666666" y="70.333333333333329" width="150.99999999999997" height="30"/>
                                         <state key="normal" title="Set Default Label Text"/>
                                         <connections>
                                             <action selector="setDefaultLabelText:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0pG-ob-Mtx"/>
                                         </connections>
                                     </button>
                                     <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="320" placeholderIntrinsicHeight="320" image="defaultPhoto" translatesAutoresizingMaskIntoConstraints="NO" id="auz-oS-uXL">
-                                        <rect key="frame" x="27" y="94.333333333333314" width="320" height="320"/>
+                                        <rect key="frame" x="27" y="108.33333333333337" width="320" height="320"/>
                                         <gestureRecognizers/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="auz-oS-uXL" secondAttribute="height" multiplier="1:1" id="p8a-yB-2BE"/>
@@ -104,7 +104,7 @@
                                         </connections>
                                     </imageView>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="s9T-AV-byG" customClass="RatingControl" customModule="FoodTracker2" customModuleProvider="target">
-                                        <rect key="frame" x="61" y="422.33333333333331" width="252" height="44"/>
+                                        <rect key="frame" x="61" y="436.33333333333331" width="252" height="44"/>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="size" keyPath="starSize">
                                                 <size key="value" width="44" height="44"/>
@@ -124,11 +124,10 @@
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="b7j-uM-eDy" secondAttribute="bottom" constant="229.66666666666674" id="9PS-7O-pvP"/>
                             <constraint firstItem="b7j-uM-eDy" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="F81-Hc-4Vy"/>
                             <constraint firstItem="b7j-uM-eDy" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="gf1-6j-hCh"/>
                             <constraint firstAttribute="trailing" secondItem="b7j-uM-eDy" secondAttribute="trailing" constant="20" id="kcU-He-517"/>
-                            <constraint firstItem="b7j-uM-eDy" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="20" id="taa-pp-sTn"/>
+                            <constraint firstItem="b7j-uM-eDy" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="56" id="taa-pp-sTn"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
